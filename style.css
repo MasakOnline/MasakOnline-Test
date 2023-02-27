@@ -54,7 +54,7 @@ body, .kelas {
 
 .scroll {
     position: fixed;
-    top: 27.5vh;
+    top: 300px;
     z-index: 1;
 }
 
