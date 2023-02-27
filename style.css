@@ -20,8 +20,6 @@ body, .kelas {
 }
 
 .materi a {
-    /* max-height: 770px; */
-    background-color: #ff6633;
     text-decoration: none;
 }
 
@@ -59,7 +57,7 @@ body, .kelas {
 }
 
 #klik {
-    max-width: 6.25em;
+    max-width: 6em;
 }
 
 .no-scroll {
