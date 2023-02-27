@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body, .home{
+    background-color: #ff6633;
+    overflow: auto;
+    margin: 0;
+}
+
+body, .kelas {
+    background-color: #bd4e2a;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.materi a {
+    /* max-height: 770px; */
+    background-color: #ff6633;
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.materi {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-border {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+
+.scroll {
+    position: fixed;
+    top: 27.5vh;
+    z-index: 1;
+}
+
+#klik {
+    max-width: 6.25em;
+}
+
+.no-scroll {
+    position: relative;
+}
+
+img, .icon {
+    max-width: 300px;
+}
+
+img, .foto {
+    max-width: 500px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .materi {
+        width: 100vw;
+    }
+    
+    img, .foto {
+        width: 100vw;
+    }
+
+    #klik {
+        max-width: 19vw;
+    }
+}
