@@ -44,14 +44,6 @@ body, .kelas {
     align-items: center;
 }
 
-.scroll-border {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
-}
-
 .scroll {
     width: 500px;
     height: fit-content;
@@ -85,10 +77,21 @@ img, .foto {
         width: 100vw;
     }
 
+    .scroll{
+        /* width: 500px;
+        height: fit-content;
+        display: flex;
+        justify-content: right;
+        position: fixed;
+        z-index: 1;
+        bottom: 60vh; */
+    }
+
     #klik {
         position: fixed;
         top: 30vh;
-        max-width: 18vw;
         right: 0vw;
+        max-width: 18vw;
+        z-index: 1;
     }
 }
