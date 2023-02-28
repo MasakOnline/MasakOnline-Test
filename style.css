@@ -22,6 +22,7 @@ body, .kelas {
 .materi a {
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
+    display: flex;
 }
 
 .content {
@@ -52,17 +53,18 @@ body, .kelas {
 }
 
 .scroll {
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    justify-content: right;
     position: fixed;
-    top: 30vh;
     z-index: 1;
+    bottom: 60vh;
 }
 
 #klik {
-    max-width: 6em;
-}
-
-.no-scroll {
-    position: relative;
+    z-index: 1;
+    max-width: 5.7em;
 }
 
 img, .icon {
@@ -84,6 +86,9 @@ img, .foto {
     }
 
     #klik {
-        max-width: 19vw;
+        position: fixed;
+        top: 30vh;
+        max-width: 18vw;
+        right: 0vw;
     }
 }
