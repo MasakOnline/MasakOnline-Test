@@ -59,6 +59,15 @@ body, .kelas {
     max-width: 5.7em;
 }
 
+img, .icon {
+    max-width: 300px;
+}
+
+img {
+    max-width: 500px;
+    z-index: 0;
+}
+
 .container-lain {
     width: 500px;
     display: flex;
@@ -79,7 +88,7 @@ a img {
         width: 100vw;
     }
     
-    img, .foto {
+    img {
         width: 100vw;
     }
 
