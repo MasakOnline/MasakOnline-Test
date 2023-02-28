@@ -85,13 +85,13 @@ img, .foto {
         z-index: 1;
     }
 
-    .scroll{
-        /* width: 500px;
+    /* .scroll{
+        width: 500px;
         height: fit-content;
         display: flex;
         justify-content: right;
         position: fixed;
         z-index: 1;
-        bottom: 60vh; */
-    }
+        bottom: 60vh;
+    } */
 }
