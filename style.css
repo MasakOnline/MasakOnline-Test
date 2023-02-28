@@ -78,7 +78,7 @@ img, .foto {
 
     #klik {
         position: fixed;
-        top: 30vh;
+        top: 220px;
         right: 0vw;
         max-width: 18vw;
         z-index: 1;
