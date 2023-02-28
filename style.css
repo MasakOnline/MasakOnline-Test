@@ -21,7 +21,7 @@ body, .kelas {
 
 .materi a {
     text-decoration: none;
-    -webkit-tap-highlight-color: #ff6633;
+    -webkit-tap-highlight-color: transparent;
     display: flex;
 }
 
