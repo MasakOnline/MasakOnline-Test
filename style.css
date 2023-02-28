@@ -50,7 +50,7 @@ body, .kelas {
     justify-content: right;
     position: fixed;
     z-index: 1;
-    bottom: 60vh;
+    top: 30vh;
 }
 
 #klik {
@@ -91,6 +91,6 @@ img, .foto {
         justify-content: right;
         position: fixed;
         z-index: 1;
-        bottom: 60vh;
+        bottom: 30vh;
     } */
 }
