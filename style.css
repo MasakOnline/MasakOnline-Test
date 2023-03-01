@@ -37,6 +37,7 @@ body, .kelas {
 .materi {
     width: 500px;
     height: 100%;
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,14 +48,14 @@ body, .kelas {
 .scroll {
     width: 500px;
     height: fit-content;
-    display: flex;
-    justify-content: right;
-    position: fixed;
+    position: absolute;
+    left: 409px;
     z-index: 1;
     top: 30vh;
 }
 
 #klik {
+    position: fixed;
     z-index: 1;
     max-width: 5.7em;
 }
@@ -94,7 +95,7 @@ a img {
 
     #klik {
         position: fixed;
-        top: 220px;
+        top: 30vh;
         right: 0vw;
         max-width: 18vw;
         z-index: 1;
